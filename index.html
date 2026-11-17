@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BuckBot</title>
+<meta name="description" content="BuckBot is a personal finance tool built and used by one person.">
+<style>
+  :root { --bg:#102A43; --fg:#F0F4F8; --accent:#5ED6A0; --muted:#9FB3C8; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:18px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 64px 16px; }
+  .mark { width:72px; height:72px; border-radius:16px; background:#0B1F33; color:var(--accent); font-weight:800; font-size:44px; display:flex; align-items:center; justify-content:center; }
+  h1 { font-size: 40px; margin: 24px 0 8px; }
+  h2 { font-size: 20px; margin: 40px 0 8px; color: var(--accent); }
+  p, li { color: var(--fg); }
+  .lead { color: var(--muted); font-size: 20px; margin-top: 0; }
+  a { color: var(--accent); }
+  footer { margin-top: 56px; color: var(--muted); font-size: 15px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="mark" aria-hidden="true">B</div>
+  <h1>BuckBot</h1>
+  <p class="lead">A personal finance tool, built and used by one person.</p>
+
+  <h2>What it does</h2>
+  <p>BuckBot connects to its owner's own bank, card, and loan accounts through Plaid. It reads balances and transactions, sorts spending into categories, and shows a cash forecast. It is read-only: it cannot move money.</p>
+
+  <h2>Who uses it</h2>
+  <p>One person, the owner. BuckBot is not a product or a service. It has no customers, no sign-up, and no other users.</p>
+
+  <h2>Privacy</h2>
+  <ul>
+    <li>Account data is stored only on the owner's own computer.</li>
+    <li>Data is never sold, shared, or given to anyone else.</li>
+    <li>Bank sign-in details are entered with the bank or Plaid, and are never seen or stored by BuckBot.</li>
+    <li>A connection can be removed at any time, and its data deleted.</li>
+  </ul>
+
+  <h2>Contact</h2>
+  <p>Jay Bishop · <a href="mailto:jay.bishop290@gmail.com">jay.bishop290@gmail.com</a></p>
+
+  <footer>BuckBot is a private, single-user tool.</footer>
+</main>
+</body>
+</html>
